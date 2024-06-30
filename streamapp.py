@@ -77,7 +77,7 @@ def main():
 
     if st.session_state['page'] == 'Home':
         st.subheader("Home")
-        st.write("Welcome to the Mentor-Mentee Matching App.")
+        st.write("Welcome to the Mentor-Mentee App.")
         if st.button("Go to Login"):
             go_to_page('Login')
         if st.button("Go to SignUp"):
